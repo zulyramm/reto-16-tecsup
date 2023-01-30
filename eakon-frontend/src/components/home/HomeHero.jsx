@@ -34,7 +34,7 @@ const HomeHero = ({ heroProducts }) => {
                   <h2 className="card__title card__title--hero">{nombre}</h2>
                   <h3 className="card__subtitle card__subtitle--hero">{marca.data[0].attributes.nombre} I {subcategoria.data.attributes.nombre}</h3>
                   {/* <Link to={`/productos/${slug}`} className="button button--primary">Ver más</Link> */}
-                  <Link to={`/`} className="button button--primary">Ver más</Link>
+                  <Link to={`/`} className="button button--secondary">Mas informacion</Link>
                 </div>
               </div>
             </div>

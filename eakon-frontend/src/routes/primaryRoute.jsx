@@ -3,6 +3,8 @@ import PrimaryLayout from "../layouts/PrimaryLayout";
 import AboutUsPage from "../pages/AboutUsPage";
 import ContactPage from "../pages/ContactPage";
 import HomePage from "../pages/HomePage";
+import ProductosPage from "../pages/ProductosPage";
+import ServiciosPage from "../pages/ServiciosPage";
 
 export const primaryRoute = createBrowserRouter([
   {
@@ -13,13 +15,13 @@ export const primaryRoute = createBrowserRouter([
         index: true,
         element: <HomePage />
       },
-      {
-        path: 'productos',
-        element: <h1>Productos</h1>
-      },
+       {
+         path: 'productos',
+         element: <h1><ProductosPage/></h1>
+       },
       {
         path: 'servicios',
-        element: <h1>Servicios</h1>
+        element: <ServiciosPage/>
       },
       {
         path: 'nosotros',
