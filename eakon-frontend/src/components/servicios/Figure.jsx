@@ -3,7 +3,8 @@ import Figure from 'react-bootstrap/Figure';
 function FigureExample() {
   return (
     <Figure>
-      <Figure.Image
+      <Figure.Image className='figura'
+
         width={171}
         height={180}
         alt="171x180"

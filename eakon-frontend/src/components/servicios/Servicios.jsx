@@ -8,7 +8,7 @@ const Servicios = () => {
 
 
       <FigureExample/>
-      <h3>xpp</h3>
+      
       </>
     );
     }
