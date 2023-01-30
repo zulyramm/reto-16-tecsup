@@ -11,8 +11,8 @@ const ProductosPage = () => {
 
   return (
     <>
-    //<ProductosPage/>
-      <h3>xxxxxf</h3>
+    <Productos/>
+      
       
     </>
   );

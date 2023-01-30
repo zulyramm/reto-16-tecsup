@@ -1,0 +1,12 @@
+.figura{
+    
+
+    background-color: green;
+    border-radius: var(--primary-border-radius);
+    max-width: 256px;
+    margin: 0 auto;
+    padding: var(--section-padding);
+    transition: background-color 0.25s;
+
+
+}

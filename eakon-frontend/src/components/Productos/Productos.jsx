@@ -1,21 +1,15 @@
-import { Swiper, SwiperSlide } from 'swiper/react';
+import FigureExample from "../servicios/Figure";
+const Productos = () => {
+ 
 
-// Import Swiper styles
-import 'swiper/css';
+ 
+    return (
+      
 
-export default () => {
-  return (
-    <Swiper
-      spaceBetween={50}
-      slidesPerView={3}
-      onSlideChange={() => console.log('slide change')}
-      onSwiper={(swiper) => console.log(swiper)}
-    >
-      <SwiperSlide>Slide 1</SwiperSlide>
-      <SwiperSlide>Slide 2</SwiperSlide>
-      <SwiperSlide>Slide 3</SwiperSlide>
-      <SwiperSlide>Slide 4</SwiperSlide>
-      ...
-    </Swiper>
-  );
-};
+
+      <FigureExample/>
+      
+      
+    );
+}
+  export default Productos;

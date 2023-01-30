@@ -10,7 +10,7 @@ const ServiciosPage = () => {
     <main>
     <Servicios/>
 
-  <h3>xdddd</h3>
+  
     </main>
     
     </>
